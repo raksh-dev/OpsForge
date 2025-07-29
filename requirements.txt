@@ -1,0 +1,42 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# LangChain and AI
+langchain==0.1.0
+langchain-openai==0.0.2
+langchain-community==0.0.10
+openai==1.6.1
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Vector database
+pinecone-client==2.2.4
+
+# Authentication & Security
+python-dotenv==1.0.0
+bcrypt==4.1.2
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Email & Calendar
+sendgrid==6.10.0
+google-api-python-client==2.108.0
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.1.0
+
+# Utils
+python-dateutil==2.8.2
+pytz==2023.3
+pandas==2.1.4
+numpy==1.26.2
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1

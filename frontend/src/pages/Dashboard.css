@@ -1,0 +1,25 @@
+.dashboard {
+  padding: 24px;
+}
+
+.welcome-card {
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.welcome-card h2 {
+  color: white;
+  margin-bottom: 8px;
+}
+
+.welcome-card p {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 16px;
+  }
+}
